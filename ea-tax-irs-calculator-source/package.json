@@ -1,0 +1,47 @@
+{
+  "name": "ea-tax-irs-penalty-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IRS Penalty and Interest Calculator by EA Tax Resolutions",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "16.2.11",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "decimal.js": "10.6.0",
+    "@js-temporal/polyfill": "0.5.1",
+    "react-hook-form": "7.82.0",
+    "@hookform/resolvers": "5.4.0",
+    "zod": "4.4.3",
+    "lucide-react": "1.25.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.13.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.3",
+    "postcss": "8.5.1",
+    "eslint": "9.19.0",
+    "eslint-config-next": "16.2.11",
+    "prettier": "3.9.6",
+    "vitest": "4.1.10",
+    "@vitejs/plugin-react": "6.0.3",
+    "jsdom": "29.1.1",
+    "@testing-library/react": "16.3.2",
+    "@testing-library/jest-dom": "7.0.0",
+    "@testing-library/user-event": "14.6.1",
+    "@playwright/test": "1.61.1"
+  }
+}
