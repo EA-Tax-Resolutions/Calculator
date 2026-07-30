@@ -23,15 +23,7 @@
   --radius-control: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  @theme {
-    --color-ea-bg: #0f1410;
-    --color-ea-border: #263129;
-    --color-ea-white: #15201a;
-    --color-ea-black: #f2f5f2;
-    --color-ea-muted: #9aa79d;
-  }
-}
+
 
 html {
   scroll-behavior: smooth;
